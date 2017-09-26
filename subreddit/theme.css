@@ -80,3 +80,103 @@ body:not(.search-page) .morelink{top:540px}
 /* Fix: Create subreddit button */
 .side .create .morelink { top: 0; }
 /* End fix */
+
+
+/* Nightmode Body */
+html[lang=nm] body {
+    background-color: #151515;
+}
+
+/* Nightmode Card Color */
+html[lang=nm] #ad_main, html[lang=nm] #images, html[lang=nm] #search #searchexpando, html[lang=nm] .account-activity-box, html[lang=nm] .combined-search-page > .content, html[lang=nm] .commentarea > .sitetable > .comment, html[lang=nm] .comments-page .link .usertext .md, html[lang=nm] .comments-page .link, html[lang=nm] .comments-page .side .linkinfo, html[lang=nm] .content.submit .info-notice, html[lang=nm] .drop-choices a.choice, html[lang=nm] .hover-bubble, html[lang=nm] .hover-bubble.multi-selector label:hover, html[lang=nm] .linefield, html[lang=nm] .linefield.mobile, html[lang=nm] .linefield.mobile, html[lang=nm] .listing-page .comment, html[lang=nm] .login-form-side, html[lang=nm] .modal-body, html[lang=nm] .reddit-infobar, html[lang=nm] .side .sidecontentbox, html[lang=nm] .side .titlebox, html[lang=nm] .sidebox.create .morelink a, html[lang=nm] .sponsorshipbox, html[lang=nm] .stylesheet-customize-container .pretty-form, html[lang=nm] .submit-page .roundfield, html[lang=nm] .subreddit-report-form .report-reason-other input[type=text], html[lang=nm] .titlebox form.toggle, html[lang=nm] .usertext.border .usertext-body, html[lang=nm] .wiki-page .pageactions, html[lang=nm] .wiki-page .wiki-page-content, html[lang=nm] .wiki-page .wikititle, html[lang=nm] body .content .thing.spam, html[lang=nm] body.listing-page > .content, html[lang=nm] select, html[lang=nm] .hover-bubble.multi-selector .create-multi input[type="text"], html[lang=nm] #previoussearch #moresearchinfo, html[lang=nm] .res #REScommentNavToggle, html[lang=nm] .RESSubscriptionButton, html[lang=nm] #userTaggerClose, html[lang=nm] .RESDialogSmall, html[lang=nm] .RESCloseButton, html[lang=nm] body.other-discussions-page > .content, html[lang=nm] .linkinfo, html[lang=nm] .read-next.fixed, html[lang=nm] .organic-listing .link, html[lang=nm] .organic-listing .link.compressed, html[lang=nm] .organic-listing .link.promotedlink, html[lang=nm] #ad-frame, html[lang=nm] #ad_main, html[lang=nm] #ad_main_top, html[lang=nm] .admin_takedown, html[lang=nm] .drop-choices.lightdrop, html[lang=nm] .leavemoderator {
+    background-color: #222;
+}
+
+/* Nightmode Secondary Card Color */
+html[lang=nm] #search input[type=text], html[lang=nm] .c-form-control, html[lang=nm] .comment.spam > .child, html[lang=nm] .commentarea > .usertext, html[lang=nm] .flairoptionpane ul li .linkflair:hover, html[lang=nm] .flairselector .flairoptionpane ul li:hover, html[lang=nm] .flairselector, html[lang=nm] .gold-accent.comment-visits-box, html[lang=nm] .gold-wrap.inline-gold .fancy, html[lang=nm] .hover-bubble.multi-selector, html[lang=nm] .hover-bubble.save-selector .savedcategory, html[lang=nm] .link .md pre, html[lang=nm] .link .md:not(pre) > code, html[lang=nm] .md blockquote, html[lang=nm] .md p code, html[lang=nm] .md pre, html[lang=nm] .new-comment .md:not(pre) > code, html[lang=nm] .new-comment .usertext-body, html[lang=nm] .post-sharing, html[lang=nm] .reddit-infobar.with-icon, html[lang=nm] .search-page #previoussearch label, html[lang=nm] .side .spacer input, html[lang=nm] .side .titlebox .md h4 a, html[lang=nm] .subreddit-report-form, html[lang=nm] .subreddit-rule-item:hover, html[lang=nm] .subreddit-stylesheet-source, html[lang=nm] .usertable > .toggle, html[lang=nm] .usertext .markhelp .spaces, html[lang=nm] .wiki-page .pageactions .wikiaction-current:hover, html[lang=nm] .wiki-page .pageactions .wikiaction:hover, html[lang=nm] .wiki-page .wiki-page-content #wiki_revision_reason, html[lang=nm] .wiki-page .wiki-page-content .md.wiki h4, html[lang=nm] body .content input[type=text], html[lang=nm] body .content input[type=url], html[lang=nm] body .content textarea, html[lang=nm] side .spacer input, html[lang=nm] .link .md :not(pre) > code, html[lang=nm] #sr-header-area .drop-choices a.choice:hover, html[lang=nm] .new-comment .md pre, html[lang=nm] .comment .expand:hover, html[lang=nm] .side #moderation_tools .title .collapse-button, html[lang=nm] .usertext.border .md :not(pre) > code, html[lang=nm] .titlebox .tagline:after, html[lang=nm] .new-comment .md :not(pre) > code, html[lang=nm] ul.res-search-tabs a, html[lang=nm] .RESDialogSmall > h3, html[lang=nm] #userTaggerToolTip input[type=text], html[lang=nm] #BigText, html[lang=nm] ul.report-reasons, html[lang=nm] .read-next .read-next-header, html[lang=nm] .diff_header, html[lang=nm] .diff_next, html[lang=nm] #newlink-with-image-upload .image-upload-drop-target, html[lang=nm] .md code, html[lang=nm] .usertext.border .md pre, html[lang=nm] .comments-page .side .linkinfo .shortlink input, html[lang=nm] .action-reason, html[lang=nm] .side .titlebox .tagline a.flairselectbtn, html[lang=nm] .leavemoderator a, html[lang=nm] .author-tooltip__head {
+    background-color: #1B1B1B;
+}
+
+/* Nightmode thumbnails */
+html[lang=nm] .thumbnail.default, html[lang=nm] .thumbnail.self, html[lang=nm] .thumbnail.image {
+    background-color: #424242;
+}
+
+/* Nightmode Comment Area */
+html[lang=nm] .comments-page .commentarea .comment, html[lang=nm] .comments-page .commentarea .comment .comment .comment, html[lang=nm] .comments-page .commentarea .comment .comment .comment .comment .comment, html[lang=nm] .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment, html[lang=nm] .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background: #222 !important;
+}
+html[lang=nm] .comments-page .commentarea .comment .comment, html[lang=nm] .comments-page .commentarea .comment .comment .comment .comment, html[lang=nm] .comments-page .commentarea .comment .comment .comment .comment .comment .comment, html[lang=nm] .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment, html[lang=nm] .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+	background-color: #1B1B1B !important;
+}
+
+/* Nightmode Border Color */
+html[lang=nm] #img-preview-container, html[lang=nm] #sr-header-area .drop-choices a.choice, html[lang=nm] .c-form-control, html[lang=nm] .comment .child, html[lang=nm] .comments-page .link .usertext .md, html[lang=nm] .drop-choices a.choice, html[lang=nm] .drop-choices a.choice, html[lang=nm] .dropdown.lightdrop .selected, html[lang=nm] .expando-button, html[lang=nm] .expando-button.image, html[lang=nm] .expando-button.selftext.collapsed, html[lang=nm] .expando-button.selftext.expanded, html[lang=nm] .expando-button.video.collapsed, html[lang=nm] .expando-button.video.expanded, html[lang=nm] .flairselector form, html[lang=nm] .flairselector.drop-choices.active, html[lang=nm] .gold-accent.comment-visits-box, html[lang=nm] .gold-wrap.inline-gold .fancy, html[lang=nm] .gold-wrap.inline-gold .fancy-inner, html[lang=nm] .hover-bubble, html[lang=nm] .hover-bubble.save-selector .savedcategory, html[lang=nm] .linefield.mobile, html[lang=nm] .link .md pre, html[lang=nm] .link .md:not(pre) > code, html[lang=nm] .login-form-side, html[lang=nm] .md p code, html[lang=nm] .md pre, html[lang=nm] .md td, html[lang=nm] .md th, html[lang=nm] .menuarea, html[lang=nm] .nav-buttons .nextprev a, html[lang=nm] .nav-buttons .nextprev, html[lang=nm] .new-comment .usertext-body, html[lang=nm] .post-sharing, html[lang=nm] .reddit-infobar, html[lang=nm] .res .RES-keyNav-activeElement, html[lang=nm] .side .spacer input, html[lang=nm] .subreddit-report-form, html[lang=nm] .usertable > .toggle, html[lang=nm] .usertext .markhelp td, html[lang=nm] .usertext .markhelp, html[lang=nm] .wiki-page .wiki-page-content #wiki_revision_reason, html[lang=nm] .wiki-page .wiki-page-content .wiki > .toc > ul ul, html[lang=nm] .wiki-page .wiki-page-content hr, html[lang=nm] body .content input[type=text], html[lang=nm] body .content input[type=url], html[lang=nm] body .content textarea, html[lang=nm] select, html[lang=nm] side .spacer input, html[lang=nm] ul.report-reasons, html[lang=nm] .hover-bubble.multi-selector .create-multi input[type="text"], html[lang=nm] .titlebox .bottom, html[lang=nm] .side #moderation_tools .title .collapse-button, html[lang=nm] .md hr, html[lang=nm] .tabmenu, html[lang=nm] .md blockquote, html[lang=nm] .link .usertext .md, html[lang=nm] .RESDialogSmall > h3, html[lang=nm] #userTaggerClose, html[lang=nm] #BigText, html[lang=nm] .RESCloseButton, html[lang=nm] .linkinfo, html[lang=nm] .read-next .read-next-header, html[lang=nm] .read-next.fixed, html[lang=nm] #newlink-with-image-upload .image-upload-drop-target, html[lang=nm] .md code, html[lang=nm] .author-tooltip__head {
+    border-color: #333;
+}
+
+/* Nightmode Black Text Color */
+html[lang=nm] #cover-msg, html[lang=nm] #login .modal-title, html[lang=nm] #search #searchexpando label, html[lang=nm] #search input[type=text]:focus, html[lang=nm] #sr-header-area .drop-choices a.choice, html[lang=nm] .comment .author, html[lang=nm] .comment-visits-box .title, html[lang=nm] .commentarea .panestack-title .title, html[lang=nm] .commentingAs, html[lang=nm] .comments-page .side .linkinfo .score, html[lang=nm] .content.submit .info-notice, html[lang=nm] .delete-field td, html[lang=nm] .drop-choices a.choice, html[lang=nm] .dropdown.lightdrop .selected, html[lang=nm] .entry .buttons li.reported-stamp, html[lang=nm] .flairlist .header, html[lang=nm] .flat-vert.title, html[lang=nm] .generic-table, html[lang=nm] .hover-bubble, html[lang=nm] .hover-bubble.multi-selector strong, html[lang=nm] .linefield .upload, html[lang=nm] .linefield label, html[lang=nm] .linefield span, html[lang=nm] .link .entry .tagline a, html[lang=nm] .md blockquote, html[lang=nm] .md h1, html[lang=nm] .md h2, html[lang=nm] .md h3, html[lang=nm] .md h4, html[lang=nm] .md h5, html[lang=nm] .md h6, html[lang=nm] .md li, html[lang=nm] .md p, html[lang=nm] .md pre code, html[lang=nm] .md td, html[lang=nm] .md th, html[lang=nm] .menuarea, html[lang=nm] .nav-buttons .nextprev a, html[lang=nm] .post-sharing .post-sharing-main .c-form-group > .post-sharing-label, html[lang=nm] .reddit-infobar, html[lang=nm] .roundfield label, html[lang=nm] .search-page #previoussearch label, html[lang=nm] .side .md p, html[lang=nm] .side .spacer input, html[lang=nm] .status, html[lang=nm] .submit-page .roundfield .title, html[lang=nm] .subreddit-report-form .report-header, html[lang=nm] .subreddit-report-form .report-reason-item .report-reason-display, html[lang=nm] .subreddit-report-form, html[lang=nm] .subreddit-rule-form .form-group-kind label, html[lang=nm] .tabmenu li.selected a, html[lang=nm] .tabpane-content .flairrow a.author, html[lang=nm] .titlebox .users-online .number, html[lang=nm] .titlebox form.toggle.sr_style_toggle labe .titlebox form.flairtoggle, html[lang=nm] .usertext .markhelp td, html[lang=nm] .wiki-page .pageactions .wikiaction, html[lang=nm] .wiki-page .wiki-page-content #wiki_revision_reason, html[lang=nm] .wiki-page .wiki-page-content .description h2, html[lang=nm] .wiki-page .wiki-page-content .md.wiki h4, html[lang=nm] .wiki-page .wiki-page-content .wiki.md h2, html[lang=nm] .wiki-page .wiki-page-content em, html[lang=nm] .wiki-page .wikititle, html[lang=nm] .wiki-page-content .md h1, html[lang=nm] .wiki-page-content .md h3, html[lang=nm] .wiki-page-content .md h5, html[lang=nm] .wiki-page-content .md h6, html[lang=nm] body .content input[type=text]:focus, html[lang=nm] body .content input[type=url]:focus, html[lang=nm] body .content textarea:focus, html[lang=nm] code, html[lang=nm] input, html[lang=nm] label, html[lang=nm] p, html[lang=nm] select, html[lang=nm] ul#image-preview-list .description pre, html[lang=nm] ul#image-preview-list, html[lang=nm] small, html[lang=nm] #newlink-with-image-upload #image-name, html[lang=nm] .titlebox:before, html[lang=nm] #previoussearch p, html[lang=nm] dt, html[lang=nm] .combined-search-page .search-result-group .search-header-label, html[lang=nm] .combined-search-page .search-result-group .search-menu .dropdown.lightdrop .selected, html[lang=nm] .side #moderation_tools .title .collapse-button, html[lang=nm] ul.image-preview-list, html[lang=nm] .res #REScommentNavToggle, html[lang=nm] .RESSubscriptionButton, html[lang=nm] .RESDialogSmall > h3, html[lang=nm] #userTaggerClose, html[lang=nm] #userTaggerToolTip label, html[lang=nm] ul.res-search-tabs a, html[lang=nm] .viewSource textarea[readonly], html[lang=nm] #BigText, html[lang=nm] .RESCloseButton, html[lang=nm] .submit-page .roundfield span.title, html[lang=nm] .linkinfo, html[lang=nm] .read-next .read-next-header-title, html[lang=nm] .diff_header, html[lang=nm] .generic-table, html[lang=nm] ul.report-reasons li.report-reason-title, html[lang=nm] #newlink-with-image-upload .file-drop-label, html[lang=nm] .wiki-page .wiki-page-content .pagelisting, html[lang=nm] .action-reason, html[lang=nm] em, html[lang=nm] #newlink-with-image-upload #new-link-video-preview, html[lang=nm] #newlink-with-image-upload .media-post-upload-progress {
+	color: #E0E0E0;
+}
+
+/* Nightmode Gray Text Color */
+html[lang=nm] .bottommenu, html[lang=nm] .commentarea .menuarea .dropdown.lightdrop .selecte, html[lang=nm] .commentarea .menuarea .toggle a, html[lang=nm] .commentarea .menuarea span.dropdown-title.lightdrop, html[lang=nm] .comments-page .side .linkinfo .date, html[lang=nm] .entry .buttons li a, html[lang=nm] .entry .buttons li + li, html[lang=nm] .entry .buttons li, html[lang=nm] .entry .tagline, html[lang=nm] .flair, html[lang=nm] .gadget .score, html[lang=nm] .gold-accent.comment-visits-box, html[lang=nm] .gray, html[lang=nm] .linefield .title + .gray, html[lang=nm] .link .domain a, html[lang=nm] .linkinfo .shortlink, html[lang=nm] .md del, html[lang=nm] .nav-buttons .nextprev, html[lang=nm] .side #moderation_tools .title h1, html[lang=nm] .sidecontentbox .more a, html[lang=nm] .sidecontentbox .title h1, html[lang=nm] .tabmenu li a, html[lang=nm] .tagline .stickied-tagline, html[lang=nm] .top-page .menuarea, html[lang=nm] .usertext .bottom-area a, html[lang=nm] .usertext .bottom-area a.reddiquette, html[lang=nm] body .content input[type=url], html[lang=nm] dd, html[lang=nm] .combined-search-page .search-result .search-result-meta, html[lang=nm] span.age, html[lang=nm] .titlebox .bottom, html[lang=nm] ul.image-preview-list .description pre, html[lang=nm] .link .entry .buttons li .redditSingleClick, html[lang=nm] .keyNavAnnotation, html[lang=nm] .res .RESDashboardToggle, html[lang=nm] .linkinfo .totalvotes, html[lang=nm] .read-next .read-next-meta, html[lang=nm] td, html[lang=nm] .required-roundfield:before, html[lang=nm] #items-required, html[lang=nm] a.voteWeight {
+	color: #999;
+}
+
+/* Misc. Fix */
+html[lang=nm] #newlink-with-image-upload #new-link-video-preview .video-preview-heading .video-cancel-button {
+    background-color: #1B1B1B !important;
+}
+html[lang=nm] #newlink-with-image-upload #new-link-video-preview, html[lang=nm] #newlink-with-image-upload .media-post-upload-progress {
+    background-color: #222 !important;
+}
+html[lang=nm] a.voteWeight {
+    background-color: inherit !important;
+}
+html[lang=nm] #newlink-with-image-upload .image-upload-drop-target {
+	background-color: #1B1B1B !important;
+	border-color: #333 !important;
+}
+html[lang=nm] .entry.RES-keyNav-activeElement, html[lang=nm] .entry.RES-keyNav-activeElement .md-container {
+    background-color: transparent !important;
+}
+html[lang=nm] .search-expando.collapsed:before {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #222 100%);
+}
+html[lang=nm] .viewSource textarea[readonly] {
+    background: repeating-linear-gradient(-225deg, #222222, transparent 40px, rgba(166, 166, 166, .1) 40px, rgb(34, 34, 34) 80px);
+}
+html[lang=nm] .search-page #search input[type=text] {
+    color: #E0E0E0 !important;
+}
+
+/* Custom night mode / day mode switches */
+.side .md a[href="http://dm.reddit.com/r/meganukebmp"], .side .md a[href="http://nm.reddit.com/r/meganukebmp"] {
+background: #e0e0e0;
+    color: #000;
+    width: 288px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12);
+}
+.side .md a[href="http://dm.reddit.com/r/meganukebmp"] {
+    display:none;
+}
+html[lang=nm] .side .md a[href="http://dm.reddit.com/r/meganukebmp"] {
+    display: block !important;
+    background: #151515 !important;
+    color: #999 !important;
+}
+html[lang=nm] .side .md a[href="http://nm.reddit.com/r/meganukebmp"] {
+    display: none;
+}
+
+/* RES FIXES */
+html[lang=nm] .NERPageMarker {
+    background: #222 !important;
+}
