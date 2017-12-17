@@ -33,4 +33,4 @@ Put it in the same directory as your presentation and source it using the `\uset
 ```
 
 ![](https://i.imgur.com/QAZ0BUQ.png)
-![](https://i.imgur.com/dfuFfzB.png)
+![](https://i.imgur.com/QpeTfz5.png)
