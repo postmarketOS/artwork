@@ -25,29 +25,29 @@
 % Based on beamerinnerthemedefault.sty
 \defbeamertemplate*{title page}{pmos}[1][]
 {
-  \vbox{}
-  \vfill
-  \begingroup
-    \centering
-    \begin{beamercolorbox}[sep=8pt,center,rounded=true,shadow=true,#1]{title}
-      \usebeamerfont{title}\inserttitle\par%
-      \ifx\insertsubtitle\@empty%
-      \else%
-        \vskip0.25em%
-        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
-      \fi%     
-    \end{beamercolorbox}%
-    \vskip1em\par
-    {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
-    \vskip2em
-    \begin{beamercolorbox}[sep=8pt,center,#1]{author}
-      \usebeamerfont{author}\insertauthor
-    \end{beamercolorbox}
-    \begin{beamercolorbox}[sep=8pt,center,#1]{date}
-      \usebeamerfont{date}\insertdate
-    \end{beamercolorbox}
-  \endgroup
-  \vfill
+	\vbox{}
+	\vfill
+	\begingroup
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,rounded=true,shadow=true,#1]{title}
+			\usebeamerfont{title}\inserttitle\par%
+			\ifx\insertsubtitle\@empty%
+			\else%
+				\vskip0.25em%
+				{\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+			\fi%
+		\end{beamercolorbox}%
+		\vskip1em\par
+		{\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+		\vskip2em
+		\begin{beamercolorbox}[sep=8pt,center,#1]{author}
+			\usebeamerfont{author}\insertauthor
+		\end{beamercolorbox}
+		\begin{beamercolorbox}[sep=8pt,center,#1]{date}
+			\usebeamerfont{date}\insertdate
+		\end{beamercolorbox}
+	\endgroup
+	\vfill
 }
 
 \titlegraphic{\includegraphics[keepaspectratio]{image/backlit}}
